@@ -24,11 +24,8 @@ dependencies = [
     ]
 
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
-[tool.hatch.build]
-sources = ["src"]
+requires = ["uv_build>=0.9.8,<0.10.0"]
+build-backend = "uv_build"
 
 [project.scripts]
 calib = "calib.cli.app:app"
