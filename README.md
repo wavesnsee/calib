@@ -15,7 +15,6 @@ uv sync --all-groups
 
 ## Docs
 ```
-cd docs
 mkdocs serve
 ```
 
